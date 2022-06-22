@@ -4,3 +4,9 @@
     color: var(--color-first);
     text-shadow: 4px 4px 0 var(--color-black);
 }
+
+.title.-second{
+    color: var(--color-white);
+    text-shadow: none;
+    text-align: center;
+}
