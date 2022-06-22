@@ -3,6 +3,7 @@
     font-size: 35px;
     color: var(--color-first);
     text-shadow: 4px 4px 0 var(--color-black);
+    margin-bottom: 20px;
 }
 
 .main-title.-second{
