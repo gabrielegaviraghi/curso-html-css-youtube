@@ -9,12 +9,22 @@
 .main-carousel::after{
     content: "";
     position: absolute;
-    left: 0;
+    left: 40px;
     top: 30px;
     display: block;
-    width: 100%;
+    width: calc(100% - 80px);
     height: 5px;
     background-color: var(--color-black);
+}
+
+.main-carousel::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    display: block;
+    border: 2.6px dashed var(--color-black);
+    width: 100%;
 }
 
 .main-carousel .button-arrow{

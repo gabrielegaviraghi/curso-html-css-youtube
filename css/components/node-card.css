@@ -13,7 +13,7 @@
     height: 0px;
     width: 40px;
     border-top: 2.5px dashed var(--color-black);
-    transform: rotate(90deg) translateX(-59%);
+    transform: rotate(90deg) translateX(-75%);
 }
 
 .node-card .title{
