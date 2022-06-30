@@ -4,6 +4,7 @@
     position: relative;
     padding-left: 100px;
     padding-right: 100px;
+    overflow: hidden;
 }
 
 .main-carousel::after{
@@ -13,7 +14,7 @@
     top: 30px;
     display: block;
     width: calc(100% - 80px);
-    height: 5px;
+    height: 6px;
     background-color: var(--color-black);
 }
 
@@ -23,7 +24,7 @@
     left: 0px;
     top: 30px;
     display: block;
-    border: 2.6px dashed var(--color-black);
+    border: 3px dashed var(--color-black);
     width: 100%;
 }
 
@@ -42,7 +43,12 @@
 }
 
 .main-carousel .items{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /*transform: translateX(400px);*/
 }
