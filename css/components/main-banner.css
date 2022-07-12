@@ -3,7 +3,7 @@
     background-image: url(/img/elvis.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 762px;
+    height: 100vh;
     border-bottom: 10px solid var(--color-black);
     padding-top: 115px;
     padding-left: 91px;

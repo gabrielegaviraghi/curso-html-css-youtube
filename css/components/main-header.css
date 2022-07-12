@@ -5,3 +5,10 @@
     border-bottom: 10px solid var(--color-black);
     padding: 10px 20px;
 }
+
+@media screen and (max-width: 980px){
+.main-header > .menu{
+    display: none;
+}
+
+}
